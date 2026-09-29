@@ -6,4 +6,4 @@ App móvil de finanzas personales (ingresos, gastos, ahorro, inversiones, suscri
 
 ## Estado
 
-Fase de análisis. La propuesta de arquitectura está en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md) y está pendiente de aprobación. Todavía no hay código.
+Fase de prototipo. Análisis y arquitectura en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md); prototipo navegable en [`prototipo/`](prototipo/).
