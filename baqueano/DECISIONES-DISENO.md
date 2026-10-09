@@ -21,7 +21,15 @@ App: https://baqueano-app.vercel.app/
 
 ## 2. Pantalla de inicio (splash / onboarding)
 
-**Estado:** en discusión.
+**Estado:** foto decidida; mapa en discusión.
 
-- Reemplazar la foto actual: la camioneta que aparece no es representativa del mercado argentino.
-- Reemplazar la mención a la Ruta del Abra del Acay por un mensaje que llame más la atención.
+- **Foto:** `paisaje-roca-cordillera`, la Toyota Hilux del autor en una huella recta hacia la cordillera, al atardecer. Reemplaza a la camioneta anterior, que no es representativa del mercado argentino.
+  - Pendiente: conseguir el original en resolución completa (la copia recibida es de 1600×1200).
+  - Recorte vertical: el foco va en el frontal de la camioneta y la huella al horizonte.
+  - Texto arriba, sobre el cielo; botones abajo, sobre las rocas, con un degradado oscuro.
+- **Texto:** se saca la mención a la Ruta del Abra del Acay. Titular propuesto: "Donde termina la ruta, empieza Baqueano."
+- **Mapa de huellas:** propuesto para reemplazar el bloque del Abra del Acay.
+  - Formato: SVG estático de la silueta de Argentina; cada huella se dibuja en línea animada (mismo lenguaje visual que el garaje).
+  - Ubicación: segunda pantalla del onboarding, no en la portada con la foto.
+  - No usar un mapa interactivo (Mapbox o Leaflet) en el inicio.
+  - Mostrarlo solo cuando haya suficientes huellas cargadas.
