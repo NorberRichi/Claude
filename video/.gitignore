@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Medios pesados: no se versionan
+*.mp4
+*.mov
+*.wav
+public/media/
+work/
